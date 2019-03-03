@@ -1,0 +1,11 @@
+1,varun,25,M.tech
+2,kumar,20,B.tech
+3,harish,22,B.tech
+<<<<<<< HEAD
+4,Dinesh,30,MCA
+5,swami,27,SSc
+6,venkateshh,24,B.Tech
+=======
+4,sahas,26,B.tech
+5,varun,26,B.Tech
+>>>>>>> 2c29a6d5a0fd2c8084112405121c62e68c90dbbb

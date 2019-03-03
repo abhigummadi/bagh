@@ -1,0 +1,36 @@
+package com.slokam.records;
+
+import java.util.ArrayList;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import com.slokam.records.file.FileGetAll;
+import com.slokam.records.pojo.StudentPojo;
+
+<<<<<<< HEAD
+public class Ramprakash_Test {
+=======
+
+
+
+public class Ramprakash_Test {
+
+>>>>>>> 39b38554b8c24f00b3ec155c77f164aa09dd5c3e
+    @Test
+	public void testdata() {
+		GetAll getAll = null;
+		getAll = new FileGetAll();
+		ArrayList<StudentPojo> stdList = getAll.getAllStudents();
+
+		Assert.assertNotNull(stdList);
+		Assert.assertEquals(5, stdList.size());
+		
+		for (int i = 0; i < stdList.size(); i++) {
+			StudentPojo std = stdList.get(i);
+			System.out.println(std.getId() + ":" + std.getName() + ":" + std.getAge() + ":" + std.getQual());
+		}
+	}
+
+}
+
